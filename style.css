@@ -1,0 +1,32 @@
+.home{
+    background-image: url(./architecture-2256489_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.home::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(29, 29, 45, 0.737);
+    opacity: 1;
+}
+.home1{
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+}
+.home1 .navbar a{
+    color: white;
+    font-weight: bolder;
+}
+.home1 .navbar .navbar-nav .nav-item a{
+    color: white;
+    font-weight: bolder;
+}
